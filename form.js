@@ -36,6 +36,7 @@ function validateForm() {
         errorFlag = true;
     }
     if (!errorFlag) {
+        send();
         success_message.innerText = "Your message has been sent successfully! \n Refresh this page if you want to send more messages."
     } else {
         error_message.innerText = "Sorry Your message has not been sent successfully!"
@@ -57,4 +58,13 @@ function clearMessages() {
 function emailIsValid(email) {
     let pattern = /\S+@\S+\.\S+/;
     return pattern.test(email);
+}
+// Sending Mails 
+function send() {
+    emailjs.send("service_f2pd5ds", "template_9wue6lp", {
+        from_name: nameInput.value,
+        message: message.value,
+        email: email.value,
+        Phone: phone.value,
+    });
 }
