@@ -1212,7 +1212,6 @@ overflow:visible;
 	opacity:0;
 	}
 
-
 /* ================================================== */
 /* content */
 /* ================================================== */
@@ -1232,7 +1231,17 @@ overflow:visible;
 	background:#18191b;
 	}
 
+	#content #section-slider #revolution-slider ul li div .id-color{
+		font-weight: 500;
+		font-size: 20px;
+	} 
 
+	@media (max-width: 767px) {
+		
+	#content #section-slider #revolution-slider ul li div .id-color{
+		font-size: 16px;
+	} 
+	  }
 /* ================================================== */
 /* section */
 /* ================================================== */
@@ -1268,6 +1277,13 @@ overflow:visible;
 	height:auto;
 	}
 	
+/* ================================================== */
+/* owl carousel */
+/* ================================================== */
+#section-partners .owl-carousel .owl-item{
+	max-width: 200px !important;
+	padding:0 10px;
+}
 /* ================================================== */
 /* footer */
 /* ================================================== */
