@@ -1288,8 +1288,8 @@ overflow:visible;
 }
 #section-partners .owl-carousel .owl-item img {
     display: block;
-    width: 200px;
-	height: 200px;
+    width: auto;
+	height: 160px;
  }
 /* ================================================== */
 /* footer */
