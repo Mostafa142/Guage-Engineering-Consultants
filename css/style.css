@@ -419,7 +419,7 @@ overflow:visible;
 	color:#fff;
 	}
 	#subheader .crumb{
-	font-size:10px;
+	font-size:12px;
 	letter-spacing:3px;
 	margin-top: 90px;
 	color:#fff;
@@ -535,7 +535,7 @@ overflow:visible;
 	#mainmenu {
 	font-family:"Karla", Arial, Helvetica, sans-serif;
 	float: right;
-	font-size:14px;
+	font-size:13px;
 	font-weight:400;
 	letter-spacing:3px;
 	text-transform:uppercase;
@@ -6830,6 +6830,57 @@ right:-15px;
 } 
 
 /* new owl close */
+
+/* new owl start  */
+
+#logo-carousel .owl-nav.disabled{
+	display:block;
+}
+#logo-carousel .owl-stage{
+	position: relative;
+}
+#logo-carousel .owl-nav.disabled .owl-prev,
+#logo-carousel .owl-nav.disabled .owl-next{
+	background-color:#fab702;
+	border: none;
+	outline: none;
+	font-size:30px;
+	color: #222;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+ #logo-carousel .owl-nav.disabled .owl-prev:hover,
+#logo-carousel .owl-nav.disabled .owl-next:hover{
+	background-color:#222;
+	color: #fff;
+}
+#logo-carousel .owl-nav.disabled .owl-prev{
+	top: 50%;
+    left: 0px;
+}
+#logo-carousel .owl-nav.disabled .owl-next{
+	top: 50%;
+    right:0px;
+}
+
+@media (min-width: 767px){
+	#logo-carousel .owl-nav.disabled .owl-prev{
+		left: -50px;
+	}
+	#logo-carousel .owl-nav.disabled .owl-next{
+		right: -50px;
+	}
+}
+
+/* new owl close */
+
+
+
 
 .text-slider{
 	line-height:60px;
