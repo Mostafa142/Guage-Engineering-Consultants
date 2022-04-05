@@ -6860,11 +6860,11 @@ right:-15px;
 	color: #fff;
 }
 #logo-carousel .owl-nav.disabled .owl-prev{
-	top: 50%;
+	top: 35%;
     left: 0px;
 }
 #logo-carousel .owl-nav.disabled .owl-next{
-	top: 50%;
+	top: 35%;
     right:0px;
 }
 
